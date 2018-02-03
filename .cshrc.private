@@ -1,0 +1,37 @@
+#alias cp 'cp -i'
+alias df 'df -h'
+alias h 'history'
+alias la 'ls -la'
+alias laa 'ls -lsaastr'
+
+#alias mv 'mv -i'
+alias nano 'nano -w'
+alias openprj '/tools/lapps32/other/OpenProj/openproj-1.4/openproj.sh'
+#alias rm 'rm -i'
+
+alias lily 'ssh -X deyan.dimitrov@10.8.10.104'
+alias kamille 'ssh -X deyan.dimitrov@10.8.10.113'
+alias cosmos 'ssh -X deyan.dimitrov@10.8.10.102'
+alias fiol 'ssh -X deyan.dimitrov@10.8.10.109'
+alias dauvnesle 'ssh -X deyan.dimitrov@10.8.10.114'
+alias solsikke 'ssh -X deyan.dimitrov@10.8.10.110'
+alias peony 'ssh -X deyan.dimitrov@10.8.10.105'
+alias hosta 'ssh -X deyan.dimitrov@10.8.10.103'
+
+setenv OSLO_PPATH /pub/projects
+
+set nobeep
+set color
+set colorcat
+set autolist
+set complete=enhance
+unset ignoreeof
+set history=100000
+set savehist=100000
+
+#set prompt = $HOST
+#set prompt = '%{\e]2;%~\a}%S[%m:%c3] %n%#%s '
+
+#Set Cadence 6.15 design environment paths#
+#615
+###########################################
